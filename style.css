@@ -1,0 +1,54 @@
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(247, 205, 227);
+    width: 100%;  
+
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul li {  
+    margin: 10px;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+     
+    border-radius: 50%;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(179, 207, 243);
+}
+ .caja {
+width: 100%;
+height: 100%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+.caja {
+    border-radius: 50%;
+}
+.caja p {
+    font-size: 12px;
+}
+
+
+    
